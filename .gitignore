@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+data/
+checkpoints/*.pt
+outputs/*.png
+outputs/*.jpg
+outputs/*.csv
+
+.kaggle/
+kaggle.json
+
