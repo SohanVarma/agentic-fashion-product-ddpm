@@ -3,12 +3,20 @@ __pycache__/
 *.pyc
 .DS_Store
 
-data/
-checkpoints/*.pt
+# Keep instructions and small milestone evidence, but do not upload the full dataset.
+data/fashion_products/
+!data/
+!data/README.md
+
+checkpoints/
+outputs/
+*.pt
+*.pth
+
+# Large generated artifacts should stay local.
 outputs/*.png
 outputs/*.jpg
 outputs/*.csv
 
 .kaggle/
 kaggle.json
-
