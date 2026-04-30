@@ -1,0 +1,1 @@
+Dataset instructions. Place Kaggle Fashion Product Images Small in data/fashion_products/.
